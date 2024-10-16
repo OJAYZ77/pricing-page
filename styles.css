@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  color: green;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+button:focus,
+button:hover {
+  background-color: #ccc;
+}
+
+.pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.plan {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.plan .price {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.plan button:hover {
+  background: black;
+  color: orange;
+}
+
+.plan button {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan ul li {
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+}
+
+footer span {
+  font-weight: bolder;
+  color: blueviolet;
+}
+
+@media (max-width: 768px) {
+  .plan {
+    width: 100%;
+  }
+}
